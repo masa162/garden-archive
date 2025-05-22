@@ -1,0 +1,6 @@
+baseURL = "https://masa162.github.io/garden-archive/"
+title   = "Masa's Garden Archive"
+theme   = "gallery"
+
+defaultContentLanguage = "ja"
+paginate = 20
