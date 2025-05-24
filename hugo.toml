@@ -1,4 +1,4 @@
-baseURL      = "https://masa162.github.io/garden-archive/"
+checbaseURL      = "https://masa162.github.io/garden-archive/"
 languageCode = "en-us"
 title        = "Garden Archive"
 theme        = "PaperMod"
