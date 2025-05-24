@@ -1,8 +1,14 @@
-checbaseURL      = "https://masa162.github.io/garden-archive/"
+baseURL      = "https://masa162.github.io/garden-archive/"
 languageCode = "en-us"
 title        = "Garden Archive"
 theme        = "PaperMod"
 
 # ↓記事一覧に採用するセクション。PaperMod では推奨
 mainSections = ["posts"]
-paginate     = 10
+[pagination]
+  pagerSize = 10 
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true      # 生 HTML を許可
