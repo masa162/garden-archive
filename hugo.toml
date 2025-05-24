@@ -1,4 +1,8 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme   = "gallery"
+baseURL      = "https://masa162.github.io/garden-archive/"
+languageCode = "en-us"
+title        = "Garden Archive"
+theme        = "PaperMod"
+
+# ↓記事一覧に採用するセクション。PaperMod では推奨
+mainSections = ["posts"]
+paginate     = 10
